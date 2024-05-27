@@ -1,0 +1,30 @@
+.offer {
+  background-image: url(../../assets/offer-bg.jpg);
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position-y: center;
+  border-radius: 7px;
+  position: relative;
+  z-index: 0;
+}
+
+.offer-filter {
+  background: rgba(0, 0, 0, .6);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  z-index: -1;
+}
+
+.offer-content {
+  gap: 40px;
+}
+
+@media (max-width:1120px) {
+  .offer-wrapper {
+    display: none;
+  }
+
+}

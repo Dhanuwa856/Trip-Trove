@@ -1,0 +1,36 @@
+.about {
+  display: flex;
+  gap: 2%;
+
+}
+
+.about-left {
+  flex-basis: 40%;
+}
+
+.about-right {
+  flex-basis: 58%;
+}
+
+.about-right p {
+  line-height: 2;
+  margin-bottom: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+@media (max-width:1120px) {
+  .about {
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width:550px) {
+  .about-right button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+}

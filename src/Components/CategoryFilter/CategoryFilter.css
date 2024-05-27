@@ -1,0 +1,15 @@
+.category-btn {
+  padding: 2px 10px;
+  border: 1px solid #ff6f61;
+  border-radius: 70px;
+  margin-left: 10px;
+  color: #000;
+  font-weight: 700;
+  text-transform: capitalize;
+  background-color: #ffffd0;
+}
+
+.active-category {
+  background-color: #ff6f61;
+  color: #fff;
+}
